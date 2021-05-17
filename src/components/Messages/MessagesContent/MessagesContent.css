@@ -1,0 +1,62 @@
+.speech-bubble {
+	position: relative;
+    border-radius: 15px;
+    max-width: 25%;
+    min-height: 3%;
+    padding: 10px !important;  
+    margin-top: 3px;
+}
+
+.speech-bubble-info {
+    display: flex;
+    margin-top: 15px;
+}
+
+.speech-bubble-info.mine {
+    justify-content: flex-end;
+    margin-right: 75px;
+}
+
+.speech-bubble-info.not-mine {
+    justify-content: flex-start;
+    margin-left: 70px;
+}
+
+.speech-bubble-avatar.mine {
+    margin-right: 20px;
+}
+
+.speech-bubble-avatar.not-mine {
+    margin-left: 20px;
+}
+
+.speech-bubble.mine {
+    background-color:#f1f0f0;
+    color: black;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.speech-bubble.not-mine {
+    color: white;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.speech-bubble.not-mine.not-general {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+.speech-bubble.not-mine.general {
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+
+.speech-bubble-container {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}

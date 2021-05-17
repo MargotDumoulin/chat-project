@@ -1,0 +1,8 @@
+.MuiList-padding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.MuiListItem-button:hover {
+    background: linear-gradient(#3c3a5e, #3c3a5e) !important;
+}

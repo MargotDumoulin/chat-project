@@ -1,0 +1,16 @@
+div .message-input > div {
+    border-radius: 50px !important;
+    width: 100%;
+}
+
+.message-input-container {
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-input {
+    width: 100%;
+}

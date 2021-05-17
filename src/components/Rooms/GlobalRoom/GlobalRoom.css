@@ -1,0 +1,17 @@
+p {
+    padding: 0px !important;
+    margin: 0 0 0 20px;
+}
+
+.notifications-number {
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    padding: 8px;
+
+    background: #f04747;
+    color: white;
+    text-align: center; 
+    font-size: 8px;
+    box-shadow: 10px;
+}

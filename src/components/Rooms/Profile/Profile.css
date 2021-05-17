@@ -1,0 +1,9 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.naming {
+    margin-left: 10px;
+}

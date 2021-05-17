@@ -1,0 +1,35 @@
+.logged-in-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 15px;
+    height: 6vh;
+    color: white;
+    background-color: #0e0c25;
+}
+
+.logged-in-profile-settings {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logged-in-profile-settings > button {
+    color: white;
+    margin-right: 10px;
+}
+
+.room-list {
+    background-color: #292841;
+    flex-grow: 0.5;
+    color: #e8e8e8;
+    width: 100%;
+    height: 94vh;
+    overflow-y: auto;
+}
+
+.rooms-management {
+    height: 100vh;
+    width: 15%;
+}

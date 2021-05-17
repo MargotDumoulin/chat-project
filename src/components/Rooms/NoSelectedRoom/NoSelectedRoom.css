@@ -1,0 +1,16 @@
+.no-room-image {
+    width: 700px;
+    height: auto;
+}
+
+.no-room-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+div.no-room-image-container > h2 {
+    margin-top: 30px;
+}

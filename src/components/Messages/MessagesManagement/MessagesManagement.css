@@ -1,0 +1,23 @@
+.messages-header {
+    display: flex;
+    height: 6.5vh;
+}
+
+.messages-header > p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.messages-content {
+    display: flex;
+    height: 86vh;
+    overflow-y: scroll;
+    margin-bottom: 17px;
+}
+
+.messages-content-container {
+    flex: 1 1 auto;
+    margin-top: auto;
+}
+
+

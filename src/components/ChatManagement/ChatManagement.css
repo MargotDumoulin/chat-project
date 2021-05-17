@@ -1,0 +1,9 @@
+.global-chat {
+    display: flex;
+    height: 100vh;
+}
+
+.messages {
+    flex-grow: 5;
+    width: 85%;
+}

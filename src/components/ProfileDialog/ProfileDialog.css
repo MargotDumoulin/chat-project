@@ -1,0 +1,17 @@
+div .name-input > div {
+    margin-bottom: 10px;
+    border-radius: 5px !important;
+}
+
+.dialog-form-picture {
+    display: flex;
+}
+
+.file-input-label-button {
+    margin-top: 4px;
+}
+
+.dialog-form-picture-avatar {
+    margin-top: 8px;
+    margin-right: 10px;
+}
